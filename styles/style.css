@@ -1,0 +1,107 @@
+/*
+Theme Name: pbh
+Theme URI: www.pbhardware.com.au
+Description: pbhardware
+Author: sean
+Author URI: www.pbhardware.com.au
+Version: 1.0
+License:
+License URI:
+
+*/
+
+/* GENERAL */	
+	h1 {font-weight:normal; color:#00abbd; font-size:21px; margin:0 0 20px 0; padding:0 0 10px 0; background:url(../images/bg_dotted.gif) bottom repeat-x; }
+	h2 {clear:both; font-weight:normal; color:#00abbd; font-size:17px; padding:0; margin:30px 0 0 0; line-height:19px;}
+	h3 {color:#087c8b; font-size:13px; margin:15px 0 8px 0; font-weight:bold;}
+	h4 {color:#000000; font-size:13px;}
+
+	p {font-weight:normal; color:#111111; text-align:left;}
+	p strong {font-weight:bold; color:#000000;}
+	p.clear {clear:both;}
+	
+	img {border:0;}
+	
+	a {text-decoration:none; color:#848484; }
+	a:hover {color:#00abbd;}	
+	
+	ul {list-style:square;}
+	ol li {margin-top:10px;}
+	
+	hr {margin:15px 0; padding:0; border-style:none; border-top:1px solid #ccc;}
+    #newform {width:470px; padding: 0px 5px; margin: 0 auto }
+
+/* BACKGROUND */	
+	body {margin:0; padding:0; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+	#bg_noise {background:url(../images/bg_main.jpg);}
+	#bg_top {background:url(../images/bg_header.jpg) repeat-x top;}
+	#bg_spotlight {background:url(../images/bg_spotlight.jpg) no-repeat 50% -1px;}	
+
+	#wrapper {width:995px; margin:0 auto; overflow:hidden;}	
+
+/*LOGOS */
+	#logos {float:left; width:205px;} 
+	#hh_logo {width:193px; height:128px;}
+	#logo img {position:absolute;}
+	
+	#store_name {float:left; background:url(../images/sign_banner_bg.png) top left no-repeat; width:192px;}
+	#store_name img {margin-top:31px;}
+
+/*HH WEBSITE TILE*/
+	.national_website_tile {width:608px; margin:0 auto; text-align:right; position:relative;}
+	.national_website_tile img {position:absolute; margin-top:107px; right:-135px;}
+	.internal_tile img {right:-219px;}
+
+/*NAV*/
+	#menu {float:left; height:53px; font-size:12px; position:relative; font-weight:bold; padding-right:15px;}
+	#menu ul {width:650px; margin:0; padding:0; list-style:none;}
+	#menu li {float:left; background:url(../images/menu_div.png) left no-repeat; height:100%;}
+	#menu li:first-child {background:none;}
+	#menu a {color:#fff; display:block; line-height:53px; padding:0 22px; text-decoration:none; height:auto;}
+	#menu a:hover {background:url(../images/bg_hover.gif) repeat-y left #00343d;}
+
+/*CENTRE COL - HOME */
+	#centre_col {background:url(../images/bg_lightsshadows.png) no-repeat; float:left; width:584px; padding-top:57px; position:relative; left:25px;}
+	#centre_col img#hero_banner {border:2px solid #fff; width:554px; background:#fff; display:block; margin-left:11px;}
+	
+	.frame_top {background:url(../images/top_frame_bg.png) top no-repeat; margin:0 auto; margin-top:20px;}
+	.frame_btm {background:url(../images/bottom_frame_bg.png) bottom no-repeat; padding:12px 16px 14px 11px;}
+	.frame_content {background:#fff; padding:0; border:1px solid #c3bab0; border-top:0; border-bottom:0; padding:25px 30px 20px 25px;}
+	
+	/* SUB BANNERS */	
+	#sub_banner	{width:582px; height:114px; position:relative; background:url(../images/bg_subbanner.gif) no-repeat; margin:0 0 5px 0;}
+	#sub_banner a {display:block; position:absolute; top:12px; left:12px;}
+	#sub_banner img {width:555px; height:90px;}
+	#sub_banner_half {width:582px; height:114px; position:relative; background:url(../images/bg_subbanner_half.gif) no-repeat; margin:0 0 5px 0;}
+	#sub_banner_half a.banner_left {display:block; position:absolute; top:12px; left:12px;}
+	#sub_banner_half a.banner_right {display:block; position:absolute; top:12px; right:15px;}
+	#sub_banner_half img {width:265px; height:90px}
+	
+/* CONTENT */	
+	#internal {background:url(../images/bg_main.jpg); width:680px; float:left; margin:57px 0 0 0;}
+	#internal_content {background:url(../images/bg_internal.jpg) top no-repeat; min-height:600px; padding:46px 40px 30px 40px; line-height:18px;}	
+    #contact_details {width:300px; float: left; }
+    #contact_form {float:right; width:30%;}
+
+    #google_map {float: left; width:auto; alignment-adjust: central;}
+
+	#internal_content img {border:1px solid #ccc; padding:4px;}
+	#internal_content .noborder {border:none;}
+	
+/* MISC CLASSES */
+	.right {float:right; margin-left:10px; margin-bottom:10px;}
+	.left {float:left; margin-right:10px; margin-bottom:10px;}
+	.noboder {border:none;}		
+	.highlight {color:#ff6600; font-weight:bold;}
+
+
+/* FOOTER */
+	#bottom {background:url(../images/bg_footer2.jpg) repeat-x bottom; height:125px; margin:15px 0 0 0;}
+	#footer {background:url(../images/bg_footer_groove.gif) top no-repeat; width:990px; margin: 0 auto; padding:5px 0 0 0; color:#938e7d; font-size:10px;}
+	#footer a {color:#938e7d; font-size:10px;}
+	#footer a:hover {color:#00a0b4;}
+	#footer ul {float:right; width:420px; margin:5px 0 0 0; padding:0; list-style:none;}
+	#footer li {border-left:1px solid #00abbd; padding:0 9px; float:left;}
+	#footer li:first-child {border:0;}
+
+
