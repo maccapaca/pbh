@@ -1,5 +1,7 @@
 <?php
-
+/*
+Template Name: Home page
+*/
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -26,32 +28,25 @@
                    		<img width="169" height="91" alt="oops!" src="<?php bloginfo('template_directory');?>/images/pb_sign_banner.jpg" />
                    </div>
             </div> 
+                <!-- Main Menu Items -->
                 <div id="menu">
                     <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+                    <!-- Main Menu Items -->
                 </div>                 
-                <div id="centre_col"> 
+                <div id="centre_col">
+                    
                     <!-- Hero Image -->
-                  <?php echo do_shortcode("[huge_it_slider id='2']"); ?>				
+                    <?php echo do_shortcode("[metaslider id=240]"); ?>				
                     
                     <div class="frame_top">
                             <div class="frame_btm">
                                 <div class="frame_content">                                
                                         <!-- Content Start -->
-                                        <h1>Welcome to Peterborough Home Hardware</h1>
-                                        <p>Welcome to our new website <a href="<?php bloginfo('template_directory');?>/images/sandy.png"  title="what does this do">read more</a></p>
-                                        
-                                        <h2>Our store</h2>
-                                        <p>Items include <a href="content.html" title="Content Page">Read more.</a> </a></p>
-                                        
-                                        <h3>Gardening Centre</h3>
-                                        <p>Plants and things.<a href="gardening.php" title="Gardening page">read more</a></p>
-                                        
-                                        <h3>Building Supplies</h3>
-                                        <p>For all your projects big and small.</p>
+                                        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>  <h1><?php the_title(); ?></h1> <?php the_content(); ?>  <?php endwhile; endif; ?>
                                         <!-- Content End -->                               
                                 </div>
                             </div>
-                    	</div>
+                    </div>
                     <!-- Bottom Banner Start -->
                     <div class="footer_banners">                    
                     	<div id="sub_banner">

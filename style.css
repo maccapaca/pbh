@@ -123,8 +123,8 @@ License URI:
 	#sub_banner	{width:582px; height:114px; position:relative; background:url(images/bg_subbanner.gif) no-repeat; margin:0 0 5px 0;}
 	#sub_banner a {display:block; position:absolute; top:12px; left:12px;}
 	#sub_banner img {width:555px; height:90px;}
-	#sub_banner_half {width:582px; height:114px; position:relative; background:url(images/bg_subbanner_half.gif) no-repeat; margin:0 0 5px 0;}
-	#sub_banner_half a.banner_left {display:block; position:absolute; top:12px; left:12px; width:265px; height:90px;}
+	#sub_banner_half {width:582px; height:205px; position:relative; background:url(images/bg_subbanner_half.gif) no-repeat; margin:0 0 5px 0;}
+	#sub_banner_half a.banner_left {display:block; position:absolute; top:12px; left:12px; width:163px; height:204px;}
 	#sub_banner_half a.banner_right {display:block; position:absolute; top:12px; right:15px;}
 	#sub_banner_half img {width:265px; height:90px}
 	
@@ -134,7 +134,7 @@ License URI:
     #internal_content {background:url(images/bg_internal.jpg) top no-repeat; min-height:600px; padding:46px 40px 30px 40px; line-height:18px;}	
     #contact_details {width:300px; float: left; }
     #contact_form { width:680px; float:left; }
-    
+
     #google_map {float: left; width:auto; alignment-adjust: central;}
 
 	#internal_content img {border:1px solid #ccc; padding:4px;}
